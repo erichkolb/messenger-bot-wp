@@ -1,0 +1,569 @@
+#bot-builder-form {
+    background: #fafafa;
+    margin-top: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    min-width: 1000px;
+    max-width: 1500px;
+    overflow-x: scroll;
+}
+
+#bot-builder-form #builder-gui {
+    width: 35%;
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+#bot-builder-form #conversation {
+    width: 65%;
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.user-action {
+    font-size: 16px;
+}
+
+.bot-answers {
+    margin: 20px 0;
+}
+
+.bot-answer {
+    padding: 10px 0;
+    margin-top: 10px;
+    border-top: 1px dashed #ccc;
+}
+
+.user-action-input {
+    width: 100%;
+}
+
+.answer-with {
+    margin-bottom: 20px;
+}
+
+.answer-with label {
+    display: inline-block;
+    min-width: 180px;
+}
+
+.answer-properties label, #timing label, #node-wait label {
+    font-size: 14px;
+    color: #888;
+}
+#timing .description{
+    color: #888;
+}
+
+.form-control {
+    padding: 6px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.bot-responses select {
+    padding: 8px;
+    height: auto;
+}
+
+.buttons-group {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    background: #999;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.buttons-group label {
+    color: #fff;
+}
+
+.one-half {
+    width: 47%;
+    margin-right: 5%;
+    display: inline-block;
+    float: left;
+}
+
+.row .one-half:last-child {
+    margin-right: 0;
+}
+
+.generic-bubble, .list-element {
+    margin: 20px 0;
+    border-radius: 4px;
+    background: #f0f0f0;
+}
+
+.default-action {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.generic-bubble, .buttons-group, .list-element {
+    padding: 20px;
+}
+
+.add-bubble {
+    display: block;
+    margin: 20px 0;
+}
+
+#conversation dl {
+    float: left;
+    padding: 20px;
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#conversation dl, #conversation dt, #conversation dd {
+    color: #666;
+    font-size: 16px;
+    width: 100%;
+    clear: both;
+}
+
+#conversation dl:hover {
+    background: #F1F0F0;
+}
+
+#conversation dt {
+    position: relative;
+}
+
+#conversation dd .answer-item {
+    display: block;
+    float: right;
+    clear: both;
+    min-width: 400px;
+}
+
+.lp-quick-replies{
+    float: right;
+    display: block;
+    clear: both;
+}
+
+#conversation .bot {
+    float: right;
+    margin-top: 20px;
+}
+
+#conversation p {
+    font-size: 16px;
+}
+
+#conversation hr {
+    width: 100%;
+    float: left;
+    clear: both;
+    border-top: 1px solid #eee;
+    border-bottom: none;
+    margin: 40px 0;
+}
+
+.answer-text {
+    background: #0084ff;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    max-width: 80%;
+}
+
+.answer-text p{
+    margin: 0;
+}
+
+.human .answer-text {
+    background: #f1f0f0;
+    color: #333;
+}
+
+.bot .answer-text{
+    float: right;
+}
+
+#conversation .button-group {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+}
+
+#conversation dl:hover .button-group {
+    visibility: visible;
+    opacity: 1;
+}
+
+.generic-carousel {
+    margin-top: 20px;
+}
+
+.generic-bubble-item {
+    width: 180px;
+    border: 1px solid #eee;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    float: left;
+}
+
+.generic-bubble-item p {
+    color: #333;
+    background: none;
+    font-size: 14px;
+}
+
+
+.buttons {
+    border-radius: 8px;
+    border: 1px solid #eee;
+    width: 100%;
+}
+
+.buttons:empty{
+    border: none !important;
+}
+
+.human .buttons {
+    width: 30%;
+}
+
+.buttons:hover, .buttons button:hover {
+    cursor: pointer;
+}
+
+.buttons button {
+    background: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    color: #0084FF;
+    font-weight: 600;
+    padding: 6px 0;
+}
+
+.generic-bubble-item .buttons {
+    width: 100%;
+}
+
+.buttons button:last-child {
+    border-bottom: none;
+}
+
+.list-group{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.element-thumbnail{
+    border-radius: 5px;
+    float: right;
+}
+
+.list-group-element {
+    min-width: 360px;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list-group-element img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.list-group-element h4{
+    margin: 5px 0;
+}
+
+.list-group-element:first-child:not(.compact){
+    padding: 0;
+    border: none;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.list-group-element:first-child:not(.compact) .element-description{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    z-index: 9;
+    color: #fff;
+}
+
+.list-group-element:first-child:not(.compact) .buttons {
+    border-radius: 3px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 3px #fff;
+}
+
+.list-group-element:first-child:not(.compact) button {
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px 0;
+}
+
+.list-group .fake-button{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: #0084ff;
+}
+
+.element-background{
+    height: 180px;
+    background-size: cover;
+}
+
+.list-group-element:last-child{
+    border: none;
+}
+
+.element-thumbnail, .element-description {
+    float: left;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group > p {
+    margin: 7px 0;
+    line-height: 1;
+    color: #666;
+    font-style: italic;
+}
+
+.answer-item {
+    margin-bottom: 20px;
+}
+
+/** Instances */
+#instances .instance {
+    width: 30%;
+    max-width: 300px;
+}
+
+#bot-settings .meta-box-sortables {
+    max-width: 600px;
+}
+
+#persistent-menu {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.button.button-rounded {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    color: #fff;
+}
+
+.button.button-danger {
+    background: red
+}
+
+.button.button-success{
+    background: #43A047;
+    color: #fff;
+    border-color: #2E7D32;
+}
+.button.button-success:hover, .button.button-success:active{
+    background: #4CAF50;
+    border-color: #1B5E20;
+    color: #fff;
+}
+
+#persistent-menu li {
+    font-size: 16px;
+    color: #0084ff;
+    margin: 10px 0;
+}
+
+#persistent-menu li:hover {
+    cursor: pointer;
+}
+
+#persistent-menu-builder {
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+}
+
+/** Pagination Styles **/
+.page-numbers {
+    display: inline-block;
+    padding: 8px;
+    margin: 0;
+    border: 1px solid #eee;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    background: #fff;
+}
+
+.page-numbers.current,
+a.page-numbers:hover {
+    background: #f9f9f9;
+}
+
+#giga-crm {
+
+}
+
+#crm-form .form-group {
+    max-width: 600px;
+    width: 50%;
+}
+
+#crm-form label {
+    font-weight: 500;
+}
+
+.bot-answer .badge {
+    background: #0084FF;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+#pattern {
+    margin-top: 10px;
+}
+
+.advanced {
+    margin-bottom: 30px;
+}
+
+.getting-started {
+    text-align: center;
+}
+
+#bot-builder-form .right {
+    float: right;
+}
+
+#node-search {
+    width: 60%;
+    display: inline-block;
+}
+
+#node-tag-filter {
+    width: 25%;
+    height: 30px;
+    margin-top: -5px;
+}
+
+span.capitalize {
+    text-transform: capitalize;
+}
+
+li.quick_reply {
+    border: 1px solid #4080FF;
+    color: #4080ff;
+    padding: 6px 8px;
+    border-radius: 13px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.connection-status .success {
+    color: green;
+}
+
+.connection-status .error {
+    color: red;
+}
+
+.settings-tab-content {
+    max-width: 800px;
+}
+
+.light{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.light-active{
+    background: #0084ff;
+}
+
+.light-error{
+    background: #C62828;
+}
+.text-error, .text-danger{
+    color: #C62828;
+}
+
+.light-success{
+    background: #81B441;
+}
+
+.lp-buttons{
+    text-align: center;
+}
+.lp-buttons .buttons{
+    max-width: 250px;
+    float: right;
+}
+
+#crm-form .subscription-channel label{
+    font-weight: normal;
+    font-style: italic;
+}
+
+/** Subscription */
+#notification-builder #conversation{
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+#notification-builder #message-list{
+    vertical-align: top;
+    padding: 20px;
+}
+
+#notification-builder dt.human{
+    display: none;
+}

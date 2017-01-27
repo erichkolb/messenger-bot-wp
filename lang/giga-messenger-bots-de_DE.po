@@ -1,0 +1,911 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Giga Messenger Bots v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-30 22:01+0700\n"
+"PO-Revision-Date: 2016-12-30 17:52+0100\n"
+"Last-Translator: Thomas Sator <thomas@sator.de>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/builder/class-builder.php:101 inc/builder/class-builder.php:102
+#: inc/builder/class-builder.php:239
+msgid "Bot Builder"
+msgstr "Bot Builder"
+
+#: inc/builder/class-builder.php:242
+msgid "Nodes"
+msgstr "Nodes (Eine Antwort)"
+
+#: inc/builder/class-builder.php:243
+msgid "Updated"
+msgstr "Update (aktualisieren)"
+
+#: inc/builder/class-builder.php:246 inc/components/admin-message.php:15
+msgid "Dismiss this notice."
+msgstr "Ignorieren"
+
+#: inc/builder/class-builder.php:253
+msgid "Add New Node"
+msgstr "Node hinzufügen"
+
+#: inc/builder/class-builder.php:254
+msgid "Edit Node"
+msgstr "Node bearbeiten"
+
+#: inc/builder/class-builder.php:262
+#: inc/subscription/class-subscription.php:310
+msgid "Live Preview"
+msgstr "Vorschau"
+
+#: inc/builder/class-builder.php:267
+msgid "Conversation"
+msgstr "Konversation"
+
+#: inc/builder/class-builder.php:274
+msgid "Search..."
+msgstr "Suche..."
+
+#: inc/builder/class-builder.php:278
+msgid "All Tags"
+msgstr "Kategorie auswählen"
+
+#: inc/builder/class-builder.php:286
+msgid "Search"
+msgstr "Suche"
+
+#: inc/builder/tpl/button.php:5
+msgid "Call to action title"
+msgstr "Titel für Button Bereich"
+
+#: inc/builder/tpl/button.php:9
+msgid "Enter call-to-action title"
+msgstr "Hier den Titel für den Button Bereich eingeben"
+
+#: inc/builder/tpl/button.php:17 inc/builder/tpl/generic.php:45
+#: inc/builder/tpl/list.php:88 inc/builder/tpl/list.php:101
+msgid "Add Button"
+msgstr "Button Hinzufügen"
+
+#: inc/builder/tpl/buttons.php:16 inc/builder/tpl/quick_replies.php:14
+#: inc/settings/sections/thread-settings.php:51
+msgid "Type"
+msgstr "Typ"
+
+#: inc/builder/tpl/buttons.php:18 inc/settings/sections/thread-settings.php:54
+msgid "Web URL"
+msgstr "Web URL"
+
+#: inc/builder/tpl/buttons.php:19 inc/settings/sections/thread-settings.php:56
+msgid "Postback"
+msgstr ""
+
+#: inc/builder/tpl/buttons.php:20
+msgid "Share"
+msgstr "Teilen"
+
+#: inc/builder/tpl/buttons.php:21
+msgid "Call Button"
+msgstr "Anruf Button"
+
+#: inc/builder/tpl/buttons.php:22
+msgid "Account Link"
+msgstr "Account verlinken"
+
+#: inc/builder/tpl/buttons.php:23
+msgid "Account Unlink"
+msgstr "Account Verlinkung aufheben"
+
+#: inc/builder/tpl/buttons.php:29 inc/builder/tpl/generic.php:14
+#: inc/builder/tpl/list.php:22 inc/builder/tpl/quick_replies.php:24
+#: inc/settings/sections/thread-settings.php:61
+msgid "Title"
+msgstr "Titel"
+
+#: inc/builder/tpl/buttons.php:31 inc/settings/sections/thread-settings.php:63
+msgid "Enter button title"
+msgstr "Button Titel bearbeiten"
+
+#: inc/builder/tpl/buttons.php:36 inc/builder/tpl/media.php:6
+#: inc/settings/sections/thread-settings.php:69
+msgid "URL"
+msgstr "URL"
+
+#: inc/builder/tpl/buttons.php:39 inc/builder/tpl/list.php:56
+#: inc/settings/sections/thread-settings.php:72
+msgid "Enter button URL"
+msgstr "Button URL bearbeiten"
+
+#: inc/builder/tpl/buttons.php:47 inc/builder/tpl/list.php:62
+msgid "Messenger Extension"
+msgstr "Messenger Erweiterung"
+
+#: inc/builder/tpl/buttons.php:53 inc/builder/tpl/list.php:67
+msgid "Webview Height Ratio"
+msgstr "Webview Height Ratio"
+
+#: inc/builder/tpl/buttons.php:55 inc/builder/tpl/list.php:69
+msgid "Full (Default)"
+msgstr "Voll (Standard)"
+
+#: inc/builder/tpl/buttons.php:56 inc/builder/tpl/list.php:70
+msgid "Compact"
+msgstr "Kompakt"
+
+#: inc/builder/tpl/buttons.php:57 inc/builder/tpl/list.php:71
+msgid "Tail"
+msgstr "Ende"
+
+#: inc/builder/tpl/buttons.php:63 inc/builder/tpl/list.php:77
+msgid "Fallback URL"
+msgstr "Standard URL"
+
+#: inc/builder/tpl/buttons.php:70 inc/builder/tpl/buttons.php:75
+#: inc/builder/tpl/quick_replies.php:30
+#: inc/settings/sections/thread-settings.php:76
+msgid "Payload"
+msgstr ""
+
+#: inc/builder/tpl/buttons.php:72 inc/settings/sections/thread-settings.php:79
+msgid "Enter button payload name"
+msgstr "Button payload name eingeben"
+
+#: inc/builder/tpl/buttons.php:77
+msgid "Your own phone number which let leads tap to call"
+msgstr "Eine Telefonnummer, Leads können sie anklicken und direkt anrufen."
+
+#: inc/builder/tpl/command.php:7
+msgid "Command"
+msgstr "Befehl"
+
+#: inc/builder/tpl/command.php:9 inc/crm/sections/basics.php:35
+#: inc/crm/sections/basics.php:46
+msgid "Please select"
+msgstr "Bitte auswählen"
+
+#: inc/builder/tpl/command.php:10
+msgid "Add Lead to Subscription Channels"
+msgstr "Lead (Kunde) zu einem Abo Channel hinzufügen"
+
+#: inc/builder/tpl/command.php:11
+msgid "Remove Lead from Subscription Channels"
+msgstr "Lead (Kunde) aus einem Abo Channel entfernen"
+
+#: inc/builder/tpl/command.php:19
+msgid "Channels"
+msgstr "Abo Channels"
+
+#: inc/builder/tpl/data-table.php:6
+msgid "Play With The Left Section To Get Started"
+msgstr "Fange an Inhalte einzugeben, hier siehst du dann die Vorschau."
+
+#: inc/builder/tpl/data-table.php:32
+msgid "default"
+msgstr "standard"
+
+#: inc/builder/tpl/data-table.php:35
+msgid "Edit Node..."
+msgstr "Node bearbeiten..."
+
+#: inc/builder/tpl/data-table.php:40
+msgid "Remove Node"
+msgstr "Node löschen"
+
+#: inc/builder/tpl/data-table.php:55
+msgid "Image Preview"
+msgstr "Bildvorschau"
+
+#: inc/builder/tpl/data-table.php:85 inc/builder/tpl/node-builder.php:77
+#: inc/subscription/tpl/message-builder.php:52
+msgid "Closure"
+msgstr "Schließen"
+
+#: inc/builder/tpl/data-table.php:93
+msgid "Update Lead"
+msgstr "Lead (Kunde) updaten"
+
+#: inc/builder/tpl/data-table.php:101
+msgid "Send Location"
+msgstr "Location schicken"
+
+#: inc/builder/tpl/dynamic.php:5 inc/builder/tpl/text.php:4
+msgid "Content"
+msgstr "Kontent"
+
+#: inc/builder/tpl/generic.php:16 inc/builder/tpl/list.php:24
+msgid "Enter Title. Maximum: 45 characters."
+msgstr "Titel eingeben, maximal 45 Zeichen."
+
+#: inc/builder/tpl/generic.php:20 inc/builder/tpl/list.php:28
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: inc/builder/tpl/generic.php:23 inc/builder/tpl/list.php:31
+msgid "Enter subtitle. Maximum: 80 characters."
+msgstr "Untertitel eingeben, maximal 80 Zeichen."
+
+#: inc/builder/tpl/generic.php:28
+msgid "Item URL"
+msgstr "Artikel URL"
+
+#: inc/builder/tpl/generic.php:34 inc/builder/tpl/list.php:36
+msgid "Image URL"
+msgstr "Bild URL"
+
+#: inc/builder/tpl/generic.php:51
+msgid "Add Bubble"
+msgstr "Bubble hinzufügen"
+
+#: inc/builder/tpl/intended.php:4 inc/builder/tpl/node-builder.php:116
+#: inc/builder/tpl/node-builder.php:130
+#: inc/subscription/tpl/message-builder.php:82
+#: inc/subscription/tpl/message-builder.php:93
+msgid "Wait"
+msgstr "Warten"
+
+#: inc/builder/tpl/intended.php:6
+msgid "Action name"
+msgstr "Aktions Name"
+
+#: inc/builder/tpl/list.php:11
+msgid "No Highlight Top Element"
+msgstr "Kein markiertes Top Element"
+
+#: inc/builder/tpl/list.php:39
+msgid "Required if you want to highlight the top element"
+msgstr "Erforderlich wenn du das Top Element markieren möchtest"
+
+#: inc/builder/tpl/list.php:44
+msgid "Default Action"
+msgstr "Standard Aktion"
+
+#: inc/builder/tpl/list.php:51
+msgid "Action when leads tap on the element row"
+msgstr "Aktion wenn ein Lead (Kunde) eine Auswahl trifft"
+
+#: inc/builder/tpl/list.php:54
+msgid "Action URL"
+msgstr "Aktions URL"
+
+#: inc/builder/tpl/list.php:94
+msgid "Add Element"
+msgstr "Element hinzufügen"
+
+#: inc/builder/tpl/node-builder.php:6
+msgid "When Receive"
+msgstr "Die Eingabe war "
+
+#: inc/builder/tpl/node-builder.php:9 inc/builder/tpl/quick_replies.php:16
+#: inc/subscription/tpl/message-builder.php:41
+msgid "Text"
+msgstr "Text"
+
+#: inc/builder/tpl/node-builder.php:10
+msgid "Click"
+msgstr "Klick auf Button"
+
+#: inc/builder/tpl/node-builder.php:11
+msgid "Attachment"
+msgstr "Anhang"
+
+#: inc/builder/tpl/node-builder.php:12
+msgid "Intended Action"
+msgstr ""
+
+#: inc/builder/tpl/node-builder.php:13
+msgid "Others (Default Message)"
+msgstr "Others (Standard Antwort)"
+
+#: inc/builder/tpl/node-builder.php:20
+msgid "The text or pattern when bot received."
+msgstr "Der Text den der Bot empfängt"
+
+#: inc/builder/tpl/node-builder.php:28
+msgid "The button when people clicked."
+msgstr "Der Button den ein User drückt"
+
+#: inc/builder/tpl/node-builder.php:33 inc/builder/tpl/quick_replies.php:17
+msgid "Location"
+msgstr "Location"
+
+#: inc/builder/tpl/node-builder.php:34
+#: inc/subscription/tpl/message-builder.php:42
+msgid "Image"
+msgstr "Bild"
+
+#: inc/builder/tpl/node-builder.php:35
+#: inc/subscription/tpl/message-builder.php:44
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/builder/tpl/node-builder.php:36
+#: inc/subscription/tpl/message-builder.php:43
+msgid "Video"
+msgstr "Video"
+
+#: inc/builder/tpl/node-builder.php:37
+#: inc/subscription/tpl/message-builder.php:45
+msgid "File"
+msgstr "Datei"
+
+#: inc/builder/tpl/node-builder.php:39
+msgid "The attachment type received from people."
+msgstr "Der Anhang der vom User gesendet wurde."
+
+#: inc/builder/tpl/node-builder.php:62
+msgid "Bot will"
+msgstr "Bot wird "
+
+#: inc/builder/tpl/node-builder.php:63
+msgid "Then bot will"
+msgstr "dann wird der Bot "
+
+#: inc/builder/tpl/node-builder.php:67
+msgid "Send Text"
+msgstr "Sende Text"
+
+#: inc/builder/tpl/node-builder.php:68
+msgid "Send Image"
+msgstr "Sende Bild"
+
+#: inc/builder/tpl/node-builder.php:69
+msgid "Send Video"
+msgstr "Sende Video"
+
+#: inc/builder/tpl/node-builder.php:70
+msgid "Send Audio"
+msgstr "Sende Audio"
+
+#: inc/builder/tpl/node-builder.php:71
+msgid "Send File"
+msgstr "Sende Datei"
+
+#: inc/builder/tpl/node-builder.php:72
+msgid "Send Buttons"
+msgstr "Sende Button"
+
+#: inc/builder/tpl/node-builder.php:73
+msgid "Send Generic"
+msgstr "Sende Generic"
+
+#: inc/builder/tpl/node-builder.php:74
+msgid "Send List"
+msgstr "Sende List"
+
+#: inc/builder/tpl/node-builder.php:75
+msgid "Send Dynamic Shortcode"
+msgstr "Sende Dynamic Shortcode"
+
+#: inc/builder/tpl/node-builder.php:76
+msgid "Update Current Lead"
+msgstr "Ausgewählten Lead( Kunden) updaten"
+
+#: inc/builder/tpl/node-builder.php:80
+#: inc/subscription/tpl/message-builder.php:55
+msgid "Callback closure is not editable"
+msgstr "Callback closure ist nicht bearbeitbar"
+
+#: inc/builder/tpl/node-builder.php:111
+msgid "Tagged As"
+msgstr "Kategorie vergeben"
+
+#: inc/builder/tpl/node-builder.php:118
+#: inc/subscription/tpl/message-builder.php:84
+msgid "Your intended action name"
+msgstr "Dein Intended Action Name"
+
+#: inc/builder/tpl/node-builder.php:123
+msgid "Add Bot Action"
+msgstr "Füge Bot Action hinzu"
+
+#: inc/builder/tpl/node-builder.php:127
+msgid "Add Tag"
+msgstr "Kategorie hinzufügen"
+
+#: inc/builder/tpl/node-builder.php:128
+msgid "Tag"
+msgstr "Kategorie"
+
+#: inc/builder/tpl/node-builder.php:129
+#: inc/subscription/tpl/message-builder.php:92
+msgid "Add Intended Action"
+msgstr "Intended Action hinzufügen"
+
+#: inc/builder/tpl/node-builder.php:134 inc/crm/class-lead-page.php:64
+#: inc/subscription/tpl/message-builder.php:158
+msgid "Save Changes"
+msgstr "Änderungen Speichern"
+
+#: inc/builder/tpl/quick_replies.php:26
+msgid "Enter quick reply title"
+msgstr "Eingabe: quick reply title"
+
+#: inc/builder/tpl/quick_replies.php:32
+msgid "Enter quick reply payload"
+msgstr "Eingabe: quick reply payload"
+
+#: inc/builder/tpl/quick_replies.php:41
+#: inc/subscription/tpl/message-builder.php:50
+msgid "Quick Replies"
+msgstr ""
+
+#: inc/builder/tpl/text.php:6
+msgid "Enter Message Content"
+msgstr "Message Content eingeben"
+
+#: inc/class-import-export.php:18 inc/class-import-export.php:19
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: inc/crm/class-crm.php:28
+msgid "CRM"
+msgstr "CRM"
+
+#: inc/crm/class-crm.php:50
+msgid "Leads"
+msgstr "Leads (Kunden)"
+
+#: inc/crm/class-crm.php:119
+msgid "Lead info saved!"
+msgstr "Lead (Kunden) Information gespeichert!"
+
+#: inc/crm/class-lead-list-table.php:59
+msgid "Name"
+msgstr "Name"
+
+#: inc/crm/class-lead-list-table.php:60 inc/crm/sections/basics.php:14
+msgid "Email"
+msgstr "Email"
+
+#: inc/crm/class-lead-list-table.php:61 inc/crm/sections/basics.php:20
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/crm/class-lead-list-table.php:62 inc/helpers.php:191
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#: inc/crm/class-lead-list-table.php:63 inc/crm/sections/basics.php:44
+msgid "Status"
+msgstr "Status"
+
+#: inc/crm/class-lead-list-table.php:64
+msgid "Created At"
+msgstr "Erstellt am"
+
+#: inc/crm/class-lead-list-table.php:111
+msgid "No"
+msgstr "Nein"
+
+#: inc/crm/class-lead-list-table.php:112
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/crm/class-lead-list-table.php:117 inc/crm/class-lead-page.php:41
+msgid "Waiting Answers from Page Administrators"
+msgstr "Bot ist angehalten, wartet auf Antworten des Seiten Administrators"
+
+#: inc/crm/class-lead-list-table.php:118 inc/crm/class-lead-page.php:43
+#: inc/crm/sections/basics.php:48
+msgid "Active"
+msgstr "Aktive"
+
+#: inc/crm/class-lead-page.php:16
+msgid "Basic Info"
+msgstr "Basic Info"
+
+#: inc/crm/class-lead-page.php:17
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: inc/crm/class-lead-page.php:18
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: inc/crm/class-lead-page.php:34
+msgid "Profile Picture"
+msgstr "Profilbild"
+
+#: inc/crm/class-lead-page.php:69
+msgid "Sorry, the lead you requested does not exists"
+msgstr "Entschuldigung, der gesuchte Lead existiert nicht."
+
+#: inc/crm/sections/advanced.php:15
+msgid "This lead have not any meta data yet"
+msgstr "Dieser Lead hat noch keine Meta Daten."
+
+#: inc/crm/sections/basics.php:2
+msgid "First Name"
+msgstr "Vorname"
+
+#: inc/crm/sections/basics.php:8
+msgid "Last Name"
+msgstr "Nachname"
+
+#: inc/crm/sections/basics.php:26
+msgid "Locale"
+msgstr "Lokalisierung"
+
+#: inc/crm/sections/basics.php:32
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: inc/crm/sections/basics.php:37
+msgid "Male"
+msgstr "Männlich"
+
+#: inc/crm/sections/basics.php:39
+msgid "Female"
+msgstr "Weiblich"
+
+#: inc/crm/sections/basics.php:47
+msgid "Waiting Answers from Page Administrator"
+msgstr "Bot ist angehalten, wartet auf Antworten des Seiten Administrators"
+
+#: inc/helpers.php:25
+msgid "Hi everyone, welcome to my page"
+msgstr "Hallo, Herzlich Willkommen."
+
+#: inc/helpers.php:186
+msgid "Help"
+msgstr "Hilfe"
+
+#: inc/helpers.php:196 inc/settings/class-settings.php:54
+#: inc/settings/class-settings.php:55
+msgid "Giga AI"
+msgstr "Giga AI"
+
+#: inc/settings/class-settings.php:34
+msgid "Basics"
+msgstr "Grundeinstellungen"
+
+#: inc/settings/class-settings.php:35
+msgid "Thread Settings"
+msgstr "Startscreen Einstellungen"
+
+#: inc/settings/class-settings.php:36
+#: inc/settings/sections/domain-whitelisting.php:8
+msgid "Domain Whitelisting"
+msgstr "Domain Whitelisting"
+
+#: inc/settings/class-settings.php:37
+msgid "Account Linking"
+msgstr "Backend Login"
+
+#: inc/settings/class-settings.php:38 inc/settings/sections/auto-stop.php:15
+msgid "Auto Stop"
+msgstr "Auto Stop"
+
+#: inc/settings/class-settings.php:63 inc/settings/class-settings.php:64
+#: inc/settings/class-settings.php:238
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/settings/class-settings.php:99
+msgid "Settings saved!"
+msgstr "Einstellungen gespeichert!"
+
+#: inc/settings/sections/account-linking.php:8
+msgid "Account Linking URL"
+msgstr "URL des WordPress Backend Zugangs"
+
+#: inc/settings/sections/account-linking.php:14
+msgid ""
+"By default, Giga uses WP default login URL (/wp-login.php) so you don't have "
+"to do anything here.\n"
+"            In case you want to use other login URL. Enter to text box above."
+msgstr ""
+"Grundsätzlich nutzt Giga den WordPress standard Backend Zugang (/wp-login."
+"php), du mußt hier nichts ändern. Möchtest du eine andere Login URL nutzen "
+"kannst du sie hier setzen."
+
+#: inc/settings/sections/auto-stop.php:22
+msgid ""
+"Auto stop feature helps you stop the bot when Page Administrators\n"
+"            chat with your leads so the conversation more naturally. In "
+"order to enable Auto Stop. You must set your Page ID in the Basics tab."
+msgstr ""
+"Das \"Auto Stopp\" Feature hält die Bot-Kommunikation an wenn du dem Lead "
+"(Facebook Benutzer) im Messenger antwortest. Damit \"Auto Stopp\" "
+"funktionieren kann mußt du deine Seiten ID bei den Basics eingegeben haben."
+
+#: inc/settings/sections/auto-stop.php:30
+msgid "Stop the bot when Page Administrator text"
+msgstr "Hält den Bot an wenn du im Messenger folgendes ein gibst:"
+
+#: inc/settings/sections/auto-stop.php:35
+msgid "* for any character"
+msgstr "* für jeden Character"
+
+#: inc/settings/sections/auto-stop.php:41
+msgid "Restart the bot when Page Administrator text"
+msgstr "Bot neu starten nach Administrator Texteingabe"
+
+#: inc/settings/sections/auto-stop.php:45
+msgid "Cannot be blank or *"
+msgstr "Darf nicht leer sein oder *"
+
+#: inc/settings/sections/basics.php:8
+msgid "Page Access Token"
+msgstr "Page Access Token (Seiten-Zugriffsschlüssel)"
+
+#: inc/settings/sections/basics.php:20
+msgid "Page ID"
+msgstr "Page ID (Seiten ID)"
+
+#: inc/settings/sections/basics.php:31
+msgid "App ID"
+msgstr "App ID"
+
+#: inc/settings/sections/basics.php:42
+msgid "Verify Token"
+msgstr "Verify Token"
+
+#: inc/settings/sections/basics.php:51
+msgid "Webhook"
+msgstr "Webhook"
+
+#: inc/settings/sections/basics.php:61
+msgid "Connection status"
+msgstr "Verbindungsstatus"
+
+#: inc/settings/sections/basics.php:72
+msgid "Success"
+msgstr "Erfolgreich"
+
+#: inc/settings/sections/basics.php:73
+msgid "Error"
+msgstr "Fehler"
+
+#: inc/settings/sections/basics.php:74
+msgid "Not Connected"
+msgstr "Nicht verbunden"
+
+#: inc/settings/sections/domain-whitelisting.php:15
+msgid ""
+"Domain whitelisting is required for Webview and Payment. Your website is "
+"whitelisted by default. In case you need to whitelist other domains, enter "
+"domains here, one per line. Maximum: 10 domains."
+msgstr ""
+"Domain Whitelisting ist erforderlich für die Webansicht und "
+"Bezahlfunktionen. Deine Domain ist als Standard in der White Liste. Falls du "
+"weitere Domains in die White Liste aufnehmen willst, kannst du sie hier "
+"eingeben. \n"
+"Jeweils in eine Zeile und maximum 10 Domais."
+
+#: inc/settings/sections/thread-settings.php:8
+msgid "Greeting Text"
+msgstr "Begrüßungstext"
+
+#: inc/settings/sections/thread-settings.php:18
+msgid "Get Started Button Payload"
+msgstr "PAYLOAD Eingabe für den Start Button"
+
+#: inc/settings/sections/thread-settings.php:28
+msgid "Persistent Menu"
+msgstr "Persistent Menu (Beständiges Menü)"
+
+#: inc/settings/sections/thread-settings.php:34
+msgid "Preview"
+msgstr "Vorschau"
+
+#: inc/settings/sections/thread-settings.php:37
+msgid "Click to Edit"
+msgstr "Zum bearbeiten anklicken"
+
+#: inc/settings/sections/thread-settings.php:86
+msgid "Add Menu Item"
+msgstr "Menüpunkt hinzufügen"
+
+#: inc/settings/sections/thread-settings.php:88
+msgid "Save Menu Item"
+msgstr "Menüpunkt speichern"
+
+#: inc/subscription/class-subscription.php:91
+#: inc/subscription/class-subscription.php:92
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+#: inc/subscription/class-subscription.php:130
+msgid "Please select a subscription channel"
+msgstr "Bitte einen Abbo Channel wählen"
+
+#: inc/subscription/class-subscription.php:145
+msgid "Please enter subscription messages"
+msgstr "Bitte Abbo Informationen eingeben"
+
+#: inc/subscription/class-subscription.php:177
+msgid "Your notification was saved successfully!"
+msgstr "Ihre Benachrichtigung wurde gespeichert"
+
+#: inc/subscription/class-subscription.php:191
+msgid "Hacked, huh?"
+msgstr ""
+
+#: inc/subscription/class-subscription.php:202
+msgid "Your notification was deleted successfully"
+msgstr "Ihre Benachrichtigung wurde gelöscht"
+
+#: inc/subscription/class-subscription.php:212
+msgid "Error during deleting your notification"
+msgstr "Während des Löschens ist ein Fehler aufgetreten"
+
+#: inc/subscription/class-subscription.php:281
+msgid "New Notification"
+msgstr "Neue Benachrichtigung"
+
+#: inc/subscription/class-subscription.php:283
+msgid "Update Notification"
+msgstr "Benachrichtigung updaten"
+
+#: inc/subscription/class-subscription.php:288
+msgid "Add New"
+msgstr "Hinzufügen"
+
+#: inc/subscription/class-subscription.php:315
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: inc/subscription/class-subscription.php:321
+#: inc/subscription/tpl/message-builder.php:8
+msgid "To Channels"
+msgstr "zu Channels"
+
+#: inc/subscription/class-subscription.php:323
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/subscription/class-subscription.php:325
+msgid "Subscribers"
+msgstr "Abonnenten"
+
+#: inc/subscription/class-subscription.php:327
+msgid "Sent Count"
+msgstr ""
+
+#: inc/subscription/class-subscription.php:334
+msgid "No Notification Found."
+msgstr "Keine Benachrichtigungen gefunden."
+
+#: inc/subscription/tpl/message-builder.php:31
+msgid "With Messages"
+msgstr "Mit Nachrichten"
+
+#: inc/subscription/tpl/message-builder.php:46
+msgid "Buttons"
+msgstr "Buttons"
+
+#: inc/subscription/tpl/message-builder.php:47
+msgid "Generic Template"
+msgstr ""
+
+#: inc/subscription/tpl/message-builder.php:48
+msgid "List"
+msgstr ""
+
+#: inc/subscription/tpl/message-builder.php:51
+msgid "Dynamic Shortcode"
+msgstr ""
+
+#: inc/subscription/tpl/message-builder.php:89
+msgid "Add Message"
+msgstr "Nachricht hinzufügen"
+
+#: inc/subscription/tpl/message-builder.php:98
+msgid "Subscription Description"
+msgstr "Abonnement Beschreibung"
+
+#: inc/subscription/tpl/message-builder.php:101
+msgid ""
+"Subscription description isn't required but recommended as it's easier\n"
+"            to manage."
+msgstr ""
+"Abonnement Beschreibung ist nicht erforderlich, aber empfohlen, da es "
+"einfacher zu verwalten ist."
+
+#: inc/subscription/tpl/message-builder.php:106
+msgid "Timing Settings"
+msgstr "Timing Einstellungen"
+
+#: inc/subscription/tpl/message-builder.php:110
+msgid "Routines"
+msgstr "Routinen"
+
+#: inc/subscription/tpl/message-builder.php:113
+msgid "Immediately. No Schedule."
+msgstr "Augenblicklich kein Schedule"
+
+#: inc/subscription/tpl/message-builder.php:123
+msgid "Sending Limit"
+msgstr "Sende Limit"
+
+#: inc/subscription/tpl/message-builder.php:126
+msgid "0 for unlimited"
+msgstr "0 für kein Limit"
+
+#: inc/subscription/tpl/message-builder.php:127
+msgid ""
+"Each time we send mass notification to all leads can be considered as 1 "
+"time. Not total of leads times. Zero for unlimited."
+msgstr ""
+"Jedes Mal, wenn wir Massen-Benachrichtigung an alle Leads (Kunden) senden "
+"kann als 1-mal angesehen werden. Null für unbegrenzt"
+
+#: inc/subscription/tpl/message-builder.php:141
+msgid "Start at"
+msgstr "Starte am/um"
+
+#: inc/subscription/tpl/message-builder.php:144
+msgid ""
+"Leaves blank to start the message routine now. You can also set the time to "
+"start in the future."
+msgstr ""
+"Leer lassen um die Nachrichtenroutine jetzt zu starten. Sie können auch die "
+"Startzeit für die Zukunft einstellen."
+
+#: inc/subscription/tpl/message-builder.php:148
+msgid "End at"
+msgstr "Endet am/um"
+
+#: inc/subscription/tpl/message-builder.php:153
+msgid ""
+"When to stop sending this message routine? Leaves blank to keep sending "
+"forever."
+msgstr ""
+"Wann soll das Senden dieser Nachrichtenroutine abgebrochen werden? Leer "
+"lassen für unendliches senden.."
+
+#: inc/subscription/tpl/message-builder.php:159
+msgid "Save & Send Instant Message"
+msgstr "Speichern und verschicken von Direkt-Nachrichten"
+
+#: inc/subscription/tpl/message-builder.php:169
+msgid "Delete"
+msgstr "Löschen"
+
+#~ msgid "Rapid Messenger Bot for Marketers and Developers."
+#~ msgstr "Rapid Messenger Bot für Marketeers und Entwickler"
+
+#~ msgid "http://binaty.org"
+#~ msgstr "http://binaty.org"
+
+#~ msgid "Settings <strong>saved</strong>."
+#~ msgstr "Einstellungen <strong>gespreichert</strong>"
+
+#~ msgid "Enter Response Text"
+#~ msgstr "Bitte die Textantwort eingeben."
+
+#~ msgid "Other"
+#~ msgstr "nicht verstanden worden"
+
+#~ msgid "Bot"
+#~ msgstr "Bot"
+
+#~ msgid "Then"
+#~ msgstr "Dann"
+
+#~ msgid "answer with"
+#~ msgstr "antwortet mit "
+
+#~ msgid "Add Response"
+#~ msgstr "Antwort hinzufügen"
+
+#~ msgid "Giga Messenger Bots"
+#~ msgstr "Giga Messenger Bots"
+
+#~ msgid "https://giga.ai"
+#~ msgstr "https://giga.ai"
+
+#~ msgid "Binaty <hello@binaty.org>"
+#~ msgstr "Binaty <hello@binaty.org>"
